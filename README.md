@@ -10,8 +10,8 @@
 
 | Name             | GitHub Handle | Contribution                                                             |
 |------------------|---------------|--------------------------------------------------------------------------|
-| Favour Aina      | @taylornguyen | Data exploration, visualization, overall project coordination            |
-| Diancheng Tang   | @jramirez     | Data collection, exploratory data analysis (EDA), dataset documentation  |
+| Favour Aina      | @NifemiF      | Data exploration, visualization, overall project coordination            |
+| Diancheng Tang   | @afkdiann     | Data collection, exploratory data analysis (EDA), dataset documentation  |
 | Alana Taylor     | @alana-tay1or | Data preprocessing, feature engineering, data validation                 |
 
 
