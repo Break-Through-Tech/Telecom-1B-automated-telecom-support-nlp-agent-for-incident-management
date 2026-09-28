@@ -22,7 +22,7 @@ In this project, you will use customer tweets and Classification + Natural Langu
 ### Success Criteria
 The model accuracy of classification of customer tweets and whether or not the agent  is outputting useful insights on customer problems. 
 
-- Model Accuracy <= 70%
+- Model Accuracy >= 70%
 - Nice looking agent AI outputs
 
 ### Stretch Goal
