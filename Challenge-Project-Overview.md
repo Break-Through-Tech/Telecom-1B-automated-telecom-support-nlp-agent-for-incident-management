@@ -36,7 +36,7 @@ Use these milestones to guide your work. Your team will create a **GitHub Projec
 |---|---|---|
 | September | Data Cleaning & Labeling | EDA + cleaning dataset to isolate just telecom messages and important phrases <br>- Drop General/Other label from data due to noise <br>- Address class imbalanced labels (ex.use weights)<br>-Remove @mentions <br>-Remove URLs https://t.co/... links <br>-Decode HTML entities like &amp;amp; to & and &lt;lt to < using html.unescape() <br>-Normalize text with lowercase, remove punctuation, special characters |
 | October | Training + Modeling | - Split training data into train (80%) and validation (20%) <br> - TF-IDF Vectorization - <br> 1. fit_transform only on training tweets column <br> 2. Transform on validation tweets column <br> 3. No fitting on validation <br> - Train 3 Models - <br> 1. Naive Bayes (no weights_dict) <br> 2. Logistic Regression (with weights_dict) <br> 3. Random Forest (with weights_dict) <br> - Evaluation on Validation (F1 score, Accuracy, Precision, Confusion Matrix) <br> - May try other models <br> - Select Best Model by Evaluation |
-| November | AI Agent Development | Creation of AI Agent of using model to output a action (creating issue ticket) |
+| November | AI Agent Development | Feel free to design, add functionality and creativity <br><br>- Wrap preprocessing steps into function <br> - Build AI Agent <br>1. Put processing function + tf-idf transform inside ai agent to use on incoming tweets <br>2. Prompt agent to give predicted label  + some kind of interesting response <br><br>- Build Streamlit <br>1. Put the agent inside of the streamlit code <br> <br>- Test agent with manual test tweets <br> 1. Testing: twcs_labeled_3000_2.csv<br> 2. Confirm output (maybe have some kind of metric of how the agent did for presentation) <br>|
 
 ---
 
@@ -98,9 +98,27 @@ The following resources will help your team understand the problem space and pot
 
 ---
 
-**Code Examples:**
-- [e.g., Link to a relevant GitHub repo]
-- [e.g., Link to a sample implementation or starter code]
+- Ollama + Smolagents: https://deepcharts.substack.com/p/build-a-web-research-ai-agent-in
+- Smolagents: https://huggingface.co/learn/agents-course/unit1/tutorial
+
+**Hosted Locally**
+- Download Ollama: https://ollama.com/download
+- Type in Terminal/Command Prompt to download Qwen 2.5 3B model
+    * ollama pull qwen2.5:3b
+- Test that it works in terminal/command prompt:
+    * ollama run qwen2.5:3b
+- Libraries used:
+  * import streamlit
+  * from smolagents import LiteLLMModel
+
+
+---
+
+- Streamlit: https://www.geeksforgeeks.org/python/a-beginners-guide-to-streamlit/
+- Streamlit: https://docs.streamlit.io/develop/tutorials
+
+--- 
+
 
 **Other:**
 - NLTK: https://www.nltk.org/
