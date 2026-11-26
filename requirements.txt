@@ -1,1 +1,8 @@
-
+numpy==2.2.6
+pandas==2.2.3
+matplotlib==3.10.9
+seaborn==0.13.2
+scikit-learn==1.7.2
+ipykernel==6.29.5
+streamlit==1.65.0
+smolagents[litellm]==1.17.0
